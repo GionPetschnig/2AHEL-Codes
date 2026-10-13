@@ -84,12 +84,12 @@ int main(void) // Nur Zahlen eingeben sonst geht das Spiel kaputt!!
             if(Deine_Eingabe > Deine_gesuchte_Zahl)
             {
                 printf("Deine Eingabe war > als die gewunschte Zahl :(\n");
-                printf("Du hast %d versuche noch!\n",versuche - e - 1);
+                printf("Du hast %d versuche noch!\n\n",versuche - e - 1);
             }
             else if(Deine_Eingabe < Deine_gesuchte_Zahl)
             {
                 printf("Deine Eingabe war < als die gewunschte Zahl :(\n");
-                printf("Du hast %d versuche noch!\n",versuche - e - 1);
+                printf("Du hast %d versuche noch!\n\n",versuche - e - 1);
             }
             else if(Deine_Eingabe == Deine_gesuchte_Zahl)
             {
@@ -102,7 +102,7 @@ int main(void) // Nur Zahlen eingeben sonst geht das Spiel kaputt!!
             }
         }
         
-        if(Deine_Eingabe != Deine_gesuchte_Zahl) 
+        if(Deine_Eingabe != Deine_gesuchte_Zahl)  
         {
             printf("Du hast verloren :(\n");
             printf("Die Richtige Zahl war %d\n\n",Deine_gesuchte_Zahl);
